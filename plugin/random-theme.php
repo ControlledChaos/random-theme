@@ -6,7 +6,7 @@ Description: Activates a random theme for new blog signups
 Version: 1.0
 Author: Aaron Edwards (Incsub)
 Author URI: http://uglyrobot.com
-WDP ID:
+WDP ID: 137
 
 Copyright 2009-2010 Incsub (http://incsub.com)
 
