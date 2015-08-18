@@ -43,6 +43,7 @@ add_action('wpmu_new_blog', 'random_theme_switch_theme', 1, 1);
 function random_theme_switch_theme($blog_ID) {
   //get allowed themes
   $themes = get_themes();
+  switch_to_blog( $blog_ID );
   $allowed_themes = apply_filters("allowed_themes", get_site_allowed_themes() );
   
   //pick a random one
@@ -59,7 +60,6 @@ function random_theme_switch_theme($blog_ID) {
 	}
   
   //activate it
-  switch_to_blog( $blog_ID );
 	switch_theme( $new_template, $new_stylesheet );
 	restore_current_blog();
 }
