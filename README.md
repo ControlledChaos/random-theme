@@ -1,6 +1,13 @@
+# Random Theme
+
+
 **INACTIVE NOTICE: This plugin is unsupported by WPMUDEV, we've published it here for those technical types who might want to fork and maintain it for their needs.**
 
-#Random Theme
+## Translations
+
+Translation files can be found at https://github.com/wpmudev/translations
+
+## Usage
 
 Activate a random theme for new Multisite signups.
 
